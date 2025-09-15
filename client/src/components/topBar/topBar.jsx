@@ -1,3 +1,4 @@
+import UserButton from "../userButton/userButton";
 import "./topBar.css";
 
 const TopBar = () => {
@@ -10,6 +11,7 @@ const TopBar = () => {
       </div>
 
       {/* USER */}
+      <UserButton />
     </div>
   );
 };
